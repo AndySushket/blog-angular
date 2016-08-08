@@ -1,0 +1,115 @@
+body {
+    background: #efeaad;
+}
+
+#main {
+    margin: auto;
+    width: 900px;
+}
+
+textarea {
+    width: 99%;
+}
+
+.nav {
+    margin-top: -12px;
+    padding-left: 20px;
+    line-height: 60px;
+    height: 60px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: #ffffff;
+    border: 2px solid grey;
+}
+
+.newTopic {
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+input,
+textarea,
+button {
+    border-radius: 5px;
+}
+
+.send {
+    border-radius: 5px;
+    color: aliceblue;
+    background: green;
+}
+
+.topic {
+    margin-top: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.62);
+    border-radius: 5px;
+}
+
+.footerTopic {
+    word-wrap:break-word;
+    padding: 15px;
+    background: #9fc2fa;
+}
+
+.headerTopic {
+    padding: 1px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    line-height: 10px;
+    background: #4d8ef5;
+}
+
+.buttons {
+    margin-top: 5px;
+    padding-top: 13px;
+}
+
+.start {
+    position: fixed;
+    top: -150px;
+    left: 33%;
+    background: #eae8d8;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto;
+    line-height: 25px;
+    padding: 50px;
+    width: 200px;
+    height: 50px;
+    padding-top: 30px;
+    padding-bottom: 65px;
+}
+
+.start input {
+    margin-left: 6%;
+    width: 180px;
+}
+
+.start button {
+    margin-left: 7%;
+    width: 180px;
+}
+
+.background {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.edit {
+    background: #eae8d8;
+    border: 1px solid black;
+    border-radius: 5px;
+    position:fixed;
+    top: -200px;
+    left: 33%;
+    display:none;
+    padding: 50px;
+    width: 400px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
