@@ -9,7 +9,7 @@ app.controller("myController", function ($scope) {
         Topic: "Xaxa"
         , message: "XaXa"
         , user: "Ellyson"
-        , time: new Date()
+        , time:'"2016-08-08T13:56:38.263Z"'
     }];
 
     $scope.send = function () { //adding new topic
